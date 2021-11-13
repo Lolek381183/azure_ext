@@ -1,0 +1,40 @@
+{
+    "manifestVersion": 1,
+    "id": "samples",
+    "publisher": "JuanJoseJaramilloTigreros",
+    "version": "1.0.44",
+    "name": "Swagger extension",
+    "description": "Azure DevOps extension for swagger",
+    "scopes": [
+        "vso.work",
+        "vso.code_write",
+        "vso.build_execute",
+        "vso.code"
+    ],
+    "categories": [
+        "Azure Repos"
+    ],
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "icons": {
+        "default": "logo.png"
+    },
+    "content": {
+        "details": {
+            "path": "overview.md"
+        }
+    },
+    "files": [
+        {
+            "path": "static",
+            "addressable": true
+        },
+        {
+            "path": "dist",
+            "addressable": true
+        }
+    ]
+}
